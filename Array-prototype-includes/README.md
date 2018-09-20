@@ -13,7 +13,7 @@ arr.includes(searchElement, fromIndex)
 ## 思路
 
 * formIndex如果大于等于数组长度Array.length, 不查下去，return false。
-* 数组长度AArray.length为0, 不查下去，return false。
+* 数组长度Array.length为0, 不查下去，return false。
 * 设置开始循环判断的k值，默认为k为formIndex || 0，若formIndex小于0，k取formItem+Array.length和0相比的较大值。
 * 从k处循环，直到k >= length跳出循环。判断如果数组中有值和searchElement相等，return true。
 
